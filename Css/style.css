@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    width: 100%;
+}
+
+.header img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    display: block;
+}
+
+.navbar {
+    background: #d63333;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar a:hover {
+    background: #b52b2b;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.main {
+    flex: 3;
+    min-width: 300px;
+    padding: 10px;
+    background: white;
+    margin: 10px;
+}
+
+.sidebars {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar {
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.main img, .main iframe {
+    width: 100%;
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+.main img.piano {
+    height: 300px;
+    object-fit: cover;
+}
+
+.highlight {
+    background: yellow;
+}
+
+.footer {
+    background: #d63333;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: white;
+    margin: 0 10px;
+}
+
+.section-title {
+    color: #d63333;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.author {
+    font-style: italic;
+    color: #888;
+}
+
+.intro-text {
+    text-align: center;
+    margin: 10px 0;
+}
